@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(4, 4, 4);
+    color: #fbfafa;
+}
+a:link{
+    background-color: rgb(255, 0, 179);
+    border-radius: 10px;
+}
+.navbar{background-color: rgb(4, 4, 4);
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 10px;
+}
+.navbar a{
+    padding: 100px;
+}
+.navbar ul {
+    overflow: auto;
+    text-decoration: none;
+    text-align:center
+}
+
+
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 30px 20px;
+    text-decoration:none
+}
+.navbar li a{
+    padding: 3px 3px ;
+    color: #fbfafa;
+    text-decoration: none;
+}
+
+.navbar input{
+    border: 2px salmon;
+    border-radius: 4px;
+    padding: 5px 5px;
+}
+element.style {
+    FONT-WEIGHT: bolder;
+}
+.pic{
+    border-radius: 30px;
+}
+.pic img{
+    border-radius: 10px;
+    border-image-width: 20px;
+}
+.myself{
+    text-align: center;
+}
+.navbar2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+}

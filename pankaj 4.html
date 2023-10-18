@@ -1,0 +1,105 @@
+<html>    
+   <head>
+        <title> Open code club Registration from </title>
+    </head>
+    <style>
+        body{
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #container{
+            width: 75%;
+            background-color: aliceblue;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2{
+            text-decoration: underline;
+        }
+        .label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input{
+            width: 90%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .content{
+            line-height: 50px;
+        }
+        #submit{
+            border: none;
+            padding: 10px,20px;
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+        footer{
+            margin-top: 5%;
+            border-radius: 3px;
+            padding: 5px;
+            text-align: center;
+        }
+        
+    </style>
+
+    <body>
+        
+        <a href="https://www.instagram.com/opencode.nitr" target="_blank"><img src="pankaj3.jpeg" alt="open code logo" width="100vw"></a>
+
+        <h2 Align="center"> OpenCode Club Registration Form</h2>
+        <div>
+            <h3 Align="center"> Need Help ?</h3>
+            <ul Align="center">
+                <li Align="center"> Support : 123-456-789</li>
+                <li Align="center"> Techinal support : 789-456-123</li>
+            </ul>
+        </div>
+        <form Align="center">
+            <div Align="center" class="content">
+                <label for ="name">Name:</label>
+                <input type ="text" name="Name"required>
+            </div>
+            <div class="content">
+                <label for ="roll no">Roll Number:</label>
+                <input type ="text" name ="roll no"required>
+            </div>
+            <div class="content">
+                <label for ="dob"> Date of Birth</label>
+                <input type ="date" name ="dob" required>
+            </div>
+            <div class="content">
+                <label for ="gender"> Gender</label>
+                <input type ="radio" name ="gender"
+                value ="Male"required>
+                <label for ="name"> Male</label>
+                <input type="radio" name="gender"
+                value ="Female" required>
+                <label for= "female">Female</label>
+                <input type ="radio" name="gender" value="Others" required>
+                <lable for ="Others">Others</lable>
+            </div>
+        
+            <div class="content">
+                <label for="phone">Phone Number (max 10 digits):
+                </label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{1,10}" required>
+            </div>
+            <div class="content">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form> 
+        <footer>
+            <div class="content">
+                <a href="index.html">
+                    <input type="submit" value="Back" id="submit">
+                </a>
+            </div>
+        </footer> 
+    </body>
+</html> 
